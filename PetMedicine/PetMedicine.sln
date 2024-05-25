@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{8CC48FF5-A92D-4F28-94A1-4BC0D71CE4A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hospital", "Hospital", "{64E01EF9-5ECE-4CFB-88BD-649388C7AC01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pet", "Pet", "{DE3F1D29-AC2D-453E-9245-AEA852E3C40C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rescue", "Rescue", "{0C63322D-CF09-41AD-B38A-9BD266E2C3BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7E9F112B-E631-4354-A827-C46A684312D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetMedicine.Common", "src\PetMedicine.Common\PetMedicine.Common.csproj", "{CCCE0524-9F5A-495E-AA5F-47EBD71C8485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetMedicine.Pet.Domain", "src\PetMedicine.Pet.Domain\PetMedicine.Pet.Domain.csproj", "{229CA02F-30F6-46FD-B0BF-162D420DDDC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetMedicine.Hospital.Domain", "src\PetMedicine.Hospital.Domain\PetMedicine.Hospital.Domain.csproj", "{9807C327-20B9-433F-B626-10500D3F5F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetMedicine.Rescue.Domain", "src\PetMedicine.Rescue.Domain\PetMedicine.Rescue.Domain.csproj", "{B1A7ABCA-D53A-4E82-87DF-28BF1B68A967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetMedicine.Pet.Api", "src\PetMedicine.Pet.Api\PetMedicine.Pet.Api.csproj", "{E8F376EA-5EC5-4699-ACAC-3B05B4D12824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCCE0524-9F5A-495E-AA5F-47EBD71C8485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCE0524-9F5A-495E-AA5F-47EBD71C8485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCE0524-9F5A-495E-AA5F-47EBD71C8485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCE0524-9F5A-495E-AA5F-47EBD71C8485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229CA02F-30F6-46FD-B0BF-162D420DDDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229CA02F-30F6-46FD-B0BF-162D420DDDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229CA02F-30F6-46FD-B0BF-162D420DDDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229CA02F-30F6-46FD-B0BF-162D420DDDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9807C327-20B9-433F-B626-10500D3F5F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9807C327-20B9-433F-B626-10500D3F5F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9807C327-20B9-433F-B626-10500D3F5F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9807C327-20B9-433F-B626-10500D3F5F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A7ABCA-D53A-4E82-87DF-28BF1B68A967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A7ABCA-D53A-4E82-87DF-28BF1B68A967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A7ABCA-D53A-4E82-87DF-28BF1B68A967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A7ABCA-D53A-4E82-87DF-28BF1B68A967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F376EA-5EC5-4699-ACAC-3B05B4D12824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F376EA-5EC5-4699-ACAC-3B05B4D12824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F376EA-5EC5-4699-ACAC-3B05B4D12824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F376EA-5EC5-4699-ACAC-3B05B4D12824}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCCE0524-9F5A-495E-AA5F-47EBD71C8485} = {7E9F112B-E631-4354-A827-C46A684312D5}
+		{229CA02F-30F6-46FD-B0BF-162D420DDDC9} = {DE3F1D29-AC2D-453E-9245-AEA852E3C40C}
+		{9807C327-20B9-433F-B626-10500D3F5F55} = {64E01EF9-5ECE-4CFB-88BD-649388C7AC01}
+		{B1A7ABCA-D53A-4E82-87DF-28BF1B68A967} = {0C63322D-CF09-41AD-B38A-9BD266E2C3BE}
+		{E8F376EA-5EC5-4699-ACAC-3B05B4D12824} = {DE3F1D29-AC2D-453E-9245-AEA852E3C40C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4B03875-4319-45F8-911B-D7DB60782FCC}
+	EndGlobalSection
+EndGlobal

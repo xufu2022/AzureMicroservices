@@ -1,0 +1,8 @@
+﻿namespace PetMedicine.Rescue.Api.Commands
+{
+    public class ApproveAdoptionCommand
+    {
+        public Guid PetId { get; set; }
+        public Guid AdopterId { get; set; }
+    }
+}

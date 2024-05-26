@@ -1,0 +1,8 @@
+﻿namespace PetMedicine.Hospital.Api.Commands
+{
+    public class SetBloodTypeCommand
+    {
+        public Guid Id { get; set; }
+        public string BloodType { get; set; }
+    }
+}

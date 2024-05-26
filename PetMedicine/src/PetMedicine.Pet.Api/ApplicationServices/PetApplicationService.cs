@@ -79,8 +79,8 @@ namespace PetMedicine.Pet.Api.ApplicationServices
                 Subject = integrationEvent.GetType().FullName
             };
 
-            PropagateTracing(message.ApplicationProperties, jsonMessage);
-            logger?.LogInformation("Sending message: {payload}", jsonMessage);
+            //PropagateTracing(message.ApplicationProperties, jsonMessage);
+            //logger?.LogInformation("Sending message: {payload}", jsonMessage);
             await sender.SendMessageAsync(message);
         }
 
